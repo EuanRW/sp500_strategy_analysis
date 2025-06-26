@@ -36,9 +36,6 @@ This repository provides tools and scripts for analyzing and comparing investmen
 - Python 3.10+
 - See `requirements.txt` for Python dependencies
 
-## Results
-- Strategy comparison plots and data are saved in the `results/` directory.
-
 ## License
 MIT License
 
@@ -63,3 +60,20 @@ This strategy uses a moving average (MA) crossover signal to determine when to e
 - **Returns:** Calculated as the percentage gain/loss from initial investment to final value, including the number of trades made.
 
 Results and comparison plots for these strategies are saved in the `results/` directory.
+
+## Results
+
+### Buy and Hold Strategy (BH_Value)**
+
+- The value generally trends upward, reflecting the long-term growth of the S&P 500, but also shows drawdowns during market declines.
+- By the end of the data (June 2025), the buy and hold portfolio has grown substantially from its initial value, demonstrating the effectiveness of passive investing over the long term.
+
+### Moving Average Crossover Strategy (MA_Value)**
+
+- The value is typically more stable during market downturns, as the strategy may move to cash and avoid large drawdowns.
+- However, the final value is generally lower than the buy and hold strategy, reflecting missed gains during strong bull markets and the impact of being out of the market during whipsaws.
+
+## Comparison**
+
+- Buy and Hold: Higher long-term returns, but more exposed to market volatility and drawdowns.
+- MA Crossover: Smoother equity curve, potentially lower drawdowns, but may underperform in strong, sustained uptrends due to time spent out of the market.
