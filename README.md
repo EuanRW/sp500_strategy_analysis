@@ -22,21 +22,27 @@ This repository provides tools and scripts for analyzing and comparing investmen
 ## Getting Started
 
 1. **Install dependencies:**
+
    ```bash
    pip install -r requirements.txt
    ```
+
 2. **Run the main script:**
+
    ```bash
    python main.py
    ```
+
 3. **Explore the notebook:**
    Open `sp500_analysis.ipynb` in Jupyter for interactive analysis.
 
 ## Requirements
+
 - Python 3.10+
 - See `requirements.txt` for Python dependencies
 
 ## License
+
 MIT License
 
 ## Strategies Analysed
