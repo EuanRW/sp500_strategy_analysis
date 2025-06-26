@@ -6,12 +6,18 @@ This repository provides tools and scripts for analyzing and comparing investmen
 
 - `main.py`: Entry point for running analyses.
 - `sp500_strategy.py`: Core logic for S&P 500 strategy analysis.
-- `sp500_analysis.ipynb`: Jupyter notebook for interactive exploration.
 - `analysis/`: Analysis and visualization utilities.
 - `data/`: Data retrieval and management modules.
 - `results/`: Output files such as plots and CSVs.
 - `strategies/`: Implementation of different investment strategies.
 - `utils/`: Helper functions and utilities.
+
+## Technologies used
+
+- Python 3.10+: Main programming language for all scripts and analysis.
+- pandas: Data manipulation and analysis, especially for time series and financial data.
+- numpy: Numerical operations and efficient array handling.
+- matplotlib: Visualization and plotting of strategy results.
 
 ## Getting Started
 
